@@ -1,5 +1,5 @@
 //
-//  RandomPickerViewController.h
+//  AdderTableViewController.h
 //  RandomPicker
 //
 //  Created by Xiaopeng Xu on 9/19/13.
@@ -8,7 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface RandomPickerViewController : UIViewController<UIAlertViewDelegate>
+@interface AdderTableViewController : UITableViewController
+
+@property (weak,nonatomic) NSString *newItem;
+
 
 @end
-

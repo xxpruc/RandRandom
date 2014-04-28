@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F08579118FFDDB3009DB2C3 /* num.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F08579018FFDDB3009DB2C3 /* num.png */; };
+		0F08579318FFDE86009DB2C3 /* num2.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F08579218FFDE86009DB2C3 /* num2.png */; };
+		0F08579518FFDF21009DB2C3 /* anything.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F08579418FFDF21009DB2C3 /* anything.png */; };
+		0F08579718FFDFAD009DB2C3 /* num_60.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F08579618FFDFAD009DB2C3 /* num_60.png */; };
+		0F08579B18FFE092009DB2C3 /* num_50_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F08579A18FFE092009DB2C3 /* num_50_1.png */; };
+		0F08579D18FFE0FD009DB2C3 /* num_50_h.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F08579C18FFE0FD009DB2C3 /* num_50_h.png */; };
+		0F08579F18FFE5A5009DB2C3 /* logo_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F08579E18FFE5A5009DB2C3 /* logo_1.png */; };
+		0F0857A21900D640009DB2C3 /* logo_57.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F0857A11900D640009DB2C3 /* logo_57.png */; };
 		0F88E4EF17E988B2002CE98C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F88E4EE17E988B2002CE98C /* UIKit.framework */; };
 		0F88E4F117E988B2002CE98C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F88E4F017E988B2002CE98C /* Foundation.framework */; };
 		0F88E4F317E988B2002CE98C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F88E4F217E988B2002CE98C /* CoreGraphics.framework */; };
@@ -17,10 +25,20 @@
 		0F88E50317E988B2002CE98C /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F88E50217E988B2002CE98C /* Default@2x.png */; };
 		0F88E50517E988B2002CE98C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F88E50417E988B2002CE98C /* Default-568h@2x.png */; };
 		0F88E50817E988B2002CE98C /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F88E50617E988B2002CE98C /* MainStoryboard.storyboard */; };
-		0F88E50B17E988B2002CE98C /* RandomPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F88E50A17E988B2002CE98C /* RandomPickerViewController.m */; };
+		0FAD966B17EAC6420054DCD0 /* NumberTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FAD966A17EAC6420054DCD0 /* NumberTableViewController.m */; };
+		0FAD966E17EC09990054DCD0 /* RandomPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FAD966D17EC09990054DCD0 /* RandomPickerViewController.m */; };
+		0FAD967417EC121E0054DCD0 /* AdderTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FAD967317EC121E0054DCD0 /* AdderTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0F08579018FFDDB3009DB2C3 /* num.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = num.png; path = ../../RandomPicker_original/RandomPicker/num.png; sourceTree = "<group>"; };
+		0F08579218FFDE86009DB2C3 /* num2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = num2.png; sourceTree = "<group>"; };
+		0F08579418FFDF21009DB2C3 /* anything.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = anything.png; sourceTree = "<group>"; };
+		0F08579618FFDFAD009DB2C3 /* num_60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = num_60.png; sourceTree = "<group>"; };
+		0F08579A18FFE092009DB2C3 /* num_50_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = num_50_1.png; sourceTree = "<group>"; };
+		0F08579C18FFE0FD009DB2C3 /* num_50_h.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = num_50_h.png; sourceTree = "<group>"; };
+		0F08579E18FFE5A5009DB2C3 /* logo_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo_1.png; path = ../logo_1.png; sourceTree = "<group>"; };
+		0F0857A11900D640009DB2C3 /* logo_57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_57.png; sourceTree = "<group>"; };
 		0F88E4EB17E988B2002CE98C /* RandomPicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RandomPicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F88E4EE17E988B2002CE98C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		0F88E4F017E988B2002CE98C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -35,8 +53,12 @@
 		0F88E50217E988B2002CE98C /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		0F88E50417E988B2002CE98C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		0F88E50717E988B2002CE98C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		0F88E50917E988B2002CE98C /* RandomPickerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RandomPickerViewController.h; sourceTree = "<group>"; };
-		0F88E50A17E988B2002CE98C /* RandomPickerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RandomPickerViewController.m; sourceTree = "<group>"; };
+		0FAD966917EAC6420054DCD0 /* NumberTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NumberTableViewController.h; sourceTree = "<group>"; };
+		0FAD966A17EAC6420054DCD0 /* NumberTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NumberTableViewController.m; sourceTree = "<group>"; };
+		0FAD966C17EC09990054DCD0 /* RandomPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RandomPickerViewController.h; sourceTree = "<group>"; };
+		0FAD966D17EC09990054DCD0 /* RandomPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RandomPickerViewController.m; sourceTree = "<group>"; };
+		0FAD967217EC121E0054DCD0 /* AdderTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdderTableViewController.h; sourceTree = "<group>"; };
+		0FAD967317EC121E0054DCD0 /* AdderTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdderTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +78,7 @@
 		0F88E4E217E988B2002CE98C = {
 			isa = PBXGroup;
 			children = (
+				0F0857A11900D640009DB2C3 /* logo_57.png */,
 				0F88E4F417E988B2002CE98C /* RandomPicker */,
 				0F88E4ED17E988B2002CE98C /* Frameworks */,
 				0F88E4EC17E988B2002CE98C /* Products */,
@@ -83,11 +106,13 @@
 		0F88E4F417E988B2002CE98C /* RandomPicker */ = {
 			isa = PBXGroup;
 			children = (
-				0F88E4FD17E988B2002CE98C /* RandomPickerAppDelegate.h */,
-				0F88E4FE17E988B2002CE98C /* RandomPickerAppDelegate.m */,
 				0F88E50617E988B2002CE98C /* MainStoryboard.storyboard */,
-				0F88E50917E988B2002CE98C /* RandomPickerViewController.h */,
-				0F88E50A17E988B2002CE98C /* RandomPickerViewController.m */,
+				0FAD967217EC121E0054DCD0 /* AdderTableViewController.h */,
+				0FAD967317EC121E0054DCD0 /* AdderTableViewController.m */,
+				0FAD966C17EC09990054DCD0 /* RandomPickerViewController.h */,
+				0FAD966D17EC09990054DCD0 /* RandomPickerViewController.m */,
+				0FAD966917EAC6420054DCD0 /* NumberTableViewController.h */,
+				0FAD966A17EAC6420054DCD0 /* NumberTableViewController.m */,
 				0F88E4F517E988B2002CE98C /* Supporting Files */,
 			);
 			path = RandomPicker;
@@ -96,6 +121,15 @@
 		0F88E4F517E988B2002CE98C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				0F08579E18FFE5A5009DB2C3 /* logo_1.png */,
+				0F08579418FFDF21009DB2C3 /* anything.png */,
+				0F08579C18FFE0FD009DB2C3 /* num_50_h.png */,
+				0F08579A18FFE092009DB2C3 /* num_50_1.png */,
+				0F08579618FFDFAD009DB2C3 /* num_60.png */,
+				0F88E4FD17E988B2002CE98C /* RandomPickerAppDelegate.h */,
+				0F08579218FFDE86009DB2C3 /* num2.png */,
+				0F08579018FFDDB3009DB2C3 /* num.png */,
+				0F88E4FE17E988B2002CE98C /* RandomPickerAppDelegate.m */,
 				0F88E4F617E988B2002CE98C /* RandomPicker-Info.plist */,
 				0F88E4F717E988B2002CE98C /* InfoPlist.strings */,
 				0F88E4FA17E988B2002CE98C /* main.m */,
@@ -136,6 +170,11 @@
 				CLASSPREFIX = RandomPicker;
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = "Xiaopeng Xu";
+				TargetAttributes = {
+					0F88E4EA17E988B2002CE98C = {
+						DevelopmentTeam = GW7C9M3Q25;
+					};
+				};
 			};
 			buildConfigurationList = 0F88E4E617E988B2002CE98C /* Build configuration list for PBXProject "RandomPicker" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -159,11 +198,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F08579B18FFE092009DB2C3 /* num_50_1.png in Resources */,
+				0F08579718FFDFAD009DB2C3 /* num_60.png in Resources */,
+				0F08579118FFDDB3009DB2C3 /* num.png in Resources */,
+				0F08579518FFDF21009DB2C3 /* anything.png in Resources */,
+				0F0857A21900D640009DB2C3 /* logo_57.png in Resources */,
 				0F88E4F917E988B2002CE98C /* InfoPlist.strings in Resources */,
 				0F88E50117E988B2002CE98C /* Default.png in Resources */,
+				0F08579318FFDE86009DB2C3 /* num2.png in Resources */,
 				0F88E50317E988B2002CE98C /* Default@2x.png in Resources */,
 				0F88E50517E988B2002CE98C /* Default-568h@2x.png in Resources */,
+				0F08579D18FFE0FD009DB2C3 /* num_50_h.png in Resources */,
 				0F88E50817E988B2002CE98C /* MainStoryboard.storyboard in Resources */,
+				0F08579F18FFE5A5009DB2C3 /* logo_1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -174,9 +221,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0FAD967417EC121E0054DCD0 /* AdderTableViewController.m in Sources */,
 				0F88E4FB17E988B2002CE98C /* main.m in Sources */,
+				0FAD966E17EC09990054DCD0 /* RandomPickerViewController.m in Sources */,
 				0F88E4FF17E988B2002CE98C /* RandomPickerAppDelegate.m in Sources */,
-				0F88E50B17E988B2002CE98C /* RandomPickerViewController.m in Sources */,
+				0FAD966B17EAC6420054DCD0 /* NumberTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,10 +310,14 @@
 		0F88E50F17E988B2002CE98C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RandomPicker/RandomPicker-Prefix.pch";
 				INFOPLIST_FILE = "RandomPicker/RandomPicker-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "F27E34C7-85BE-4067-9F55-C8BE35C686A1";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -272,10 +325,14 @@
 		0F88E51017E988B2002CE98C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RandomPicker/RandomPicker-Prefix.pch";
 				INFOPLIST_FILE = "RandomPicker/RandomPicker-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "F27E34C7-85BE-4067-9F55-C8BE35C686A1";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -299,6 +356,7 @@
 				0F88E51017E988B2002CE98C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
